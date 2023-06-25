@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GoVivillionPlugin.Properties {
+namespace GoVivillonPlugin.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace GoVivillionPlugin.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("GoVivillionPlugin.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("GoVivillonPlugin.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -65,7 +65,7 @@ namespace GoVivillionPlugin.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap V00_Polar {
             get {
-                object obj = ResourceManager.GetObject("V00-Polar", resourceCulture);
+                object obj = ResourceManager.GetObject("V00_Polar", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -75,7 +75,7 @@ namespace GoVivillionPlugin.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap V01_Taiga {
             get {
-                object obj = ResourceManager.GetObject("V01-Taiga", resourceCulture);
+                object obj = ResourceManager.GetObject("V01_Taiga", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -85,7 +85,7 @@ namespace GoVivillionPlugin.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap V02_Tundra {
             get {
-                object obj = ResourceManager.GetObject("V02-Tundra", resourceCulture);
+                object obj = ResourceManager.GetObject("V02_Tundra", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -95,7 +95,7 @@ namespace GoVivillionPlugin.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap V03_Continental {
             get {
-                object obj = ResourceManager.GetObject("V03-Continental", resourceCulture);
+                object obj = ResourceManager.GetObject("V03_Continental", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -105,7 +105,7 @@ namespace GoVivillionPlugin.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap V04_Vergel {
             get {
-                object obj = ResourceManager.GetObject("V04-Vergel", resourceCulture);
+                object obj = ResourceManager.GetObject("V04_Vergel", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -115,7 +115,7 @@ namespace GoVivillionPlugin.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap V05_Oriental {
             get {
-                object obj = ResourceManager.GetObject("V05-Oriental", resourceCulture);
+                object obj = ResourceManager.GetObject("V05_Oriental", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -125,7 +125,7 @@ namespace GoVivillionPlugin.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap V06_Floral {
             get {
-                object obj = ResourceManager.GetObject("V06-Floral", resourceCulture);
+                object obj = ResourceManager.GetObject("V06_Floral", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -135,7 +135,7 @@ namespace GoVivillionPlugin.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap V07_Moderno {
             get {
-                object obj = ResourceManager.GetObject("V07-Moderno", resourceCulture);
+                object obj = ResourceManager.GetObject("V07_Moderno", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -145,7 +145,7 @@ namespace GoVivillionPlugin.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap V08_Marino {
             get {
-                object obj = ResourceManager.GetObject("V08-Marino", resourceCulture);
+                object obj = ResourceManager.GetObject("V08_Marino", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -155,7 +155,7 @@ namespace GoVivillionPlugin.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap V09_Isleño {
             get {
-                object obj = ResourceManager.GetObject("V09-Isleño", resourceCulture);
+                object obj = ResourceManager.GetObject("V09_Isleño", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -165,7 +165,7 @@ namespace GoVivillionPlugin.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap V10_Estepa {
             get {
-                object obj = ResourceManager.GetObject("V10-Estepa", resourceCulture);
+                object obj = ResourceManager.GetObject("V10_Estepa", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -175,7 +175,7 @@ namespace GoVivillionPlugin.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap V11_Desierto {
             get {
-                object obj = ResourceManager.GetObject("V11-Desierto", resourceCulture);
+                object obj = ResourceManager.GetObject("V11_Desierto", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -185,7 +185,7 @@ namespace GoVivillionPlugin.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap V12_Oasis {
             get {
-                object obj = ResourceManager.GetObject("V12-Oasis", resourceCulture);
+                object obj = ResourceManager.GetObject("V12_Oasis", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -195,7 +195,7 @@ namespace GoVivillionPlugin.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap V13_Monzon {
             get {
-                object obj = ResourceManager.GetObject("V13-Monzon", resourceCulture);
+                object obj = ResourceManager.GetObject("V13_Monzon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -205,7 +205,7 @@ namespace GoVivillionPlugin.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap V14_Pantano {
             get {
-                object obj = ResourceManager.GetObject("V14-Pantano", resourceCulture);
+                object obj = ResourceManager.GetObject("V14_Pantano", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -215,7 +215,7 @@ namespace GoVivillionPlugin.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap V15_Solar {
             get {
-                object obj = ResourceManager.GetObject("V15-Solar", resourceCulture);
+                object obj = ResourceManager.GetObject("V15_Solar", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -225,7 +225,7 @@ namespace GoVivillionPlugin.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap V16_Oceano {
             get {
-                object obj = ResourceManager.GetObject("V16-Oceano", resourceCulture);
+                object obj = ResourceManager.GetObject("V16_Oceano", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -235,7 +235,7 @@ namespace GoVivillionPlugin.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap V17_Jungla {
             get {
-                object obj = ResourceManager.GetObject("V17-Jungla", resourceCulture);
+                object obj = ResourceManager.GetObject("V17_Jungla", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -245,7 +245,7 @@ namespace GoVivillionPlugin.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap V18_Fantasia {
             get {
-                object obj = ResourceManager.GetObject("V18-Fantasia", resourceCulture);
+                object obj = ResourceManager.GetObject("V18_Fantasia", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

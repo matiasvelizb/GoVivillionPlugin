@@ -1,13 +1,11 @@
-﻿using System;
-using System.Windows.Forms;
-using GoVivillionPlugin.Forms;
+﻿using GoVivillonPlugin.Forms;
 using PKHeX.Core;
 
-namespace GoVivillionPlugin;
+namespace GoVivillonPlugin;
 
-public class GoVivillionPlugin : IPlugin
+public class GoVivillonPlugin : IPlugin
 {
-    public string Name => nameof(GoVivillionPlugin);
+    public string Name => "Go Vivillon Plugin";
     public int Priority => 1;
     public ISaveFileProvider SaveFileEditor { get; private set; } = null!;
 
@@ -15,7 +13,6 @@ public class GoVivillionPlugin : IPlugin
 
     public void Initialize(params object[] args)
     {
-        Console.WriteLine($"Loading {Name}...");
         SaveFileEditor = (ISaveFileProvider)Array.Find(args, z => z is ISaveFileProvider)!;
         LoadMenuStrip((ToolStrip?)Array.Find(args, z => z is ToolStrip));
     }
@@ -32,14 +29,24 @@ public class GoVivillionPlugin : IPlugin
             Visible = false,
             Image = Properties.Resources.V18_Fantasia
         };
+        tools?.DropDownItems.Add(ctrl);
 
-        ctrl.Click += new EventHandler(OpenGoVivillionForm);
-        _ = (tools?.DropDownItems.Add(ctrl));
+        var c2 = new ToolStripMenuItem("Edit Vivillon Form Spawn");
+        c2.Click += new EventHandler(OpenGoVivillonForm);
+        var c3 = new ToolStripMenuItem("Generate Vivillon Living Dex");
+        c3.Click += new EventHandler(GenerateLivingDex);
+        ctrl.DropDownItems.Add(c2);
+        ctrl.DropDownItems.Add(c3);
     }
 
-    private void OpenGoVivillionForm(object? sender, EventArgs e)
+    private void OpenGoVivillonForm(object? sender, EventArgs e)
     {
-        _ = new GoVivillionForm((SAV9SV)SaveFileEditor.SAV).ShowDialog();
+        new GoVivillonForm((SAV9SV)SaveFileEditor.SAV).ShowDialog();
+    }
+
+    private void GenerateLivingDex(object? sender, EventArgs e)
+    {
+        MessageBox.Show("WIP", Name);
     }
 
     public void NotifySaveLoaded()
