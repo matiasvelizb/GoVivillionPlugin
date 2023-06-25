@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoVivillionPlugin", "GoVivillionPlugin\GoVivillionPlugin.csproj", "{529A35F8-968D-4A3C-AA1E-5E1C35F98F36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{529A35F8-968D-4A3C-AA1E-5E1C35F98F36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{529A35F8-968D-4A3C-AA1E-5E1C35F98F36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{529A35F8-968D-4A3C-AA1E-5E1C35F98F36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{529A35F8-968D-4A3C-AA1E-5E1C35F98F36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C0DBAA5-7CA3-4BC6-B73C-AD82FACDF716}
+	EndGlobalSection
+EndGlobal
